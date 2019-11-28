@@ -1,8 +1,9 @@
-## Welcome to Copenhagen Networks&Data Science
+## Welcome to Copenhagen Networks&Data Science Group
 
-Join our mailing list by filling the form below:
+The Copenhagen Networks&Data Science mailing list brings together Danish researchers who are actively engaged in research on Networks & Data Science. 
 
-
+Our mailing list is open to anybody with an interest in networks and is very easy to join by filling the form below.
+Members on this list will receive notices of interesting events. 
 
 
   <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSeXD5_I95sB7t9vcdhYmSQRaqlmPpBya5Ryd7CTEHdVIQQ6BA/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
@@ -26,3 +27,5 @@ $('#gform').on('submit', function(e) {
   $('#gform').prepend('Your submission has been processed...');
   });
 </script>
+
+The mailing list is managed by ... If you wish to advertise an event, send us an email at ...
