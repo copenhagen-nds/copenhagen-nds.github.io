@@ -2,7 +2,20 @@
 
 Join our mailing list by filling the form below:
 
-<form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSeXD5_I95sB7t9vcdhYmSQRaqlmPpBya5Ryd7CTEHdVIQQ6BA/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+
+
+<html>
+  <head>
+  </head>
+  <body>
+    <h1>Works!</h1>
+    <p>Now here is the form. Without the iframe from google, we can style it how we like. Next: customize the confirmation page so it seems to work inside the page.</p>
+    <p>
+      <script type="text/javascript">var submitted=false;</script>
+      <iframe name="hidden_iframe" id="hidden_iframe"
+      style="display:none;" onload="if(submitted)
+      {window.location='thankyou.html';}"></iframe>
+      <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSeXD5_I95sB7t9vcdhYmSQRaqlmPpBya5Ryd7CTEHdVIQQ6BA/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
   First name:<br>
   <input type="text" name="entry.1768266154" id="entry.1768266154"><br>
   Last name:<br>
@@ -13,12 +26,6 @@ Join our mailing list by filling the form below:
   <input type="text" name="entry.477696347" id="entry.477696347">
   <input type="submit" value="Submit">
 </form>
-<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
-<script src="assets/js/jquery.min.js"></script>
-<script type="text/javascript">var submitted=false;</script>
-<script type="text/javascript">
-$('#gform').on('submit', function(e) {
-  $('#gform *').fadeOut(2000);
-  $('#gform').prepend('Your submission has been processed...');
-  });
-</script>
+  </p>
+  </body>
+</html>
