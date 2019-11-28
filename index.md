@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+## Welcome to Copenhagen Networks&Data Science
+
+Join our mailing list by filling the form below:
 
 <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSeXD5_I95sB7t9vcdhYmSQRaqlmPpBya5Ryd7CTEHdVIQQ6BA/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
   First name:<br>
