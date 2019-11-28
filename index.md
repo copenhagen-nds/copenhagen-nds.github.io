@@ -6,13 +6,13 @@ Our mailing list is open to anybody with an interest in networks and is very eas
 Members on this list will receive notices of interesting events. 
 
   <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSeXD5_I95sB7t9vcdhYmSQRaqlmPpBya5Ryd7CTEHdVIQQ6BA/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
-  <p First name: name="first_name"></p> <br>
+  <p> First name: name="first_name" </p> <br>
   <input type="text" name="entry.1768266154" id="entry.1768266154" required><br>
-  <p Last name: name="last_name"></p> <br>
+  <p> Last name: name="last_name" </p> <br>
   <input type="text" name="entry.937911144" id="entry.937911144" required><br>
-  <p Email: name="email"></p> <br>
+  <p> Email: name="email"</p> <br>
   <input type="email" name="entry.1551577756" id="entry.1551577756" required><br>
-  <p Organization: name="organization"></p> <br>
+  <p> Organization: name="organization" </p> <br>
   <input type="text" name="entry.477696347" id="entry.477696347" required><br>
   <input type="submit" value="Submit">
 </form>
