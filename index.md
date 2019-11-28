@@ -12,7 +12,7 @@ Members on this list will receive notices of interesting events.
   Last name:  <br>
   <input type="text" name="entry.937911144" id="entry.937911144" required><br>
    Email:  <br>
-  <input type="email" name="entry.2049352076" id="entry.2049352076" required><br>
+  <input type="email" name="entry.1551577756" id="entry.1551577756" required><br>
    Organization:  <br>
   <input type="text" name="entry.477696347" id="entry.477696347" required><br>
   <input type="submit" value="Submit">
@@ -28,6 +28,7 @@ $('#gform').on('submit', function(e) {
   $('#main_div').prepend('Your submission has been processed...');
   });
 </script>
+
 
 The mailing list is managed by ... If you wish to advertise an event, send us an email at ...
 I am testing something
