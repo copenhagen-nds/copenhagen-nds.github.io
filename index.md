@@ -23,7 +23,7 @@ Members on this list will receive notices of interesting events.
 <script type="text/javascript">var submitted=false;</script>
 <script type="text/javascript">
 $('#gform').on('submit', function(e) {
-  $('#gform *').fadeOut(2000);
+  $('#gform *').fadeOut(10);
   $('#gform').prepend('Your submission has been processed...');
   });
 </script>
