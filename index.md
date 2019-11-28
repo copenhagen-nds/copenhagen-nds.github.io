@@ -9,11 +9,11 @@ Members on this list will receive notices of interesting events.
   <fieldset name="personalia">
   First name:  <br>
   <input type="text" name="entry.1768266154" id="entry.1768266154" required><br>
-  Last name: name="last_name"  <br>
+  Last name:   <br>
   <input type="text" name="entry.937911144" id="entry.937911144" required><br>
-  Email: name="email" <br>
+  Email:  <br>
   <input type="email" name="entry.1551577756" id="entry.1551577756" required><br>
-  Organization: name="organization"  <br>
+  Organization:   <br>
   <input type="text" name="entry.477696347" id="entry.477696347" required><br>
   <input type="submit" value="Submit">
   </fieldset>
