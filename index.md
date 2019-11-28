@@ -9,11 +9,11 @@ Join our mailing list by filling the form below:
   First name:<br>
   <input type="text" name="entry.1768266154" id="entry.1768266154"><br>
   Last name:<br>
-  <input type="text" name="entry.937911144" id="entry.937911144">
+  <input type="text" name="entry.937911144" id="entry.937911144"><br>
    Email:<br>
-  <input type="text" name="entry.2049352076" id="entry.2049352076">
+  <input type="text" name="entry.2049352076" id="entry.2049352076"><br>
    Organization:<br>
-  <input type="text" name="entry.477696347" id="entry.477696347">
+  <input type="text" name="entry.477696347" id="entry.477696347"><br>
   <input type="submit" value="Submit">
 </form>
 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
