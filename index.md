@@ -5,7 +5,7 @@ The Copenhagen Networks&Data Science mailing list brings together Danish researc
 Our mailing list is open to anybody with an interest in networks and is very easy to join by filling the form below.
 Members on this list will receive notices of interesting events. 
 
-
+<div id="main_div">
   <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSeXD5_I95sB7t9vcdhYmSQRaqlmPpBya5Ryd7CTEHdVIQQ6BA/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
   First name:  <br>
   <input type="text" name="entry.1768266154" id="entry.1768266154" required><br>
@@ -18,12 +18,14 @@ Members on this list will receive notices of interesting events.
   <input type="submit" value="Submit">
 </form>
 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+</div>
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script type="text/javascript">var submitted=false;</script>
 <script type="text/javascript">
 $('#gform').on('submit', function(e) {
-  $('#gform *').fadeOut(10);
+  e.preventDefault();
+  $('#main_div *').fadeOut(10);
   $('#gform').prepend('Your submission has been processed...');
   });
 </script>
