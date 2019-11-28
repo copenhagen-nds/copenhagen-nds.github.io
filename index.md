@@ -26,7 +26,7 @@ Members on this list will receive notices of interesting events.
 $('#gform').on('submit', function(e) {
   e.preventDefault();
   $('#main_div *').fadeOut(10);
-  $('#gform').prepend('Your submission has been processed...');
+  $('#main_div').prepend('Your submission has been processed...');
   });
 </script>
 
